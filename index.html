@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roni Taradipta</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <a href="#" class="nav-logo">
+            <img src="./assets/img/roni.svg" alt="" class="logo" />
+          </a>
+          <div class="nav-wrapper">
+            <button id="btn-toggle" onclick="dropDown()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="navigation" id="navigation">
+            <ul>
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#tentang">Tentang</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#karya">Karya</a></li>
+              <li><a href="#kontak" class="button">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article id="beranda">
+        <div class="container">
+          <div class="text-container">
+            <h1>
+              Hi, Saya<br />
+              <span>Roni Taradipta</span>
+            </h1>
+            <p>
+              Selamat datang di website personal saya. Kenali saya lebih jauh,
+              dan lihat karya-karya menarik saya.
+            </p>
+            <button class="button" onclick="location.href='#tentang'">
+              Selengkapnya
+            </button>
+            <div class="social-icon">
+              <div class="ico">
+                <a href="https://www.facebook.com/roni.taradipta"
+                  ><img src="./assets/img/facebook.png" alt=""
+                /></a>
+              </div>
+              <div class="ico">
+                <a href="https://www.instagram.com/ronitaradipta/"
+                  ><img src="./assets/img/instagram.png" alt=""
+                /></a>
+              </div>
+              <div class="ico">
+                <a href="linkedin.com/in/roni-taradipta-6b0151217">
+                  <img src="./assets/img/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div class="ico">
+                <a href="https://twitter.com/ronidivine">
+                  <img src="./assets/img/twitter.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="img-container">
+            <img src="./assets/img/ronitaradipta.png" alt="" class="hero" />
+            <img src="./assets/img/Ellipse-1.png" alt="" class="circle" />
+            <img src="./assets/img/UI Designer.png" alt="" class="ui-ico" />
+            <img src="./assets/img/Web Developer.png" alt="" class="web-ico" />
+          </div>
+        </div>
+      </article>
+      <article id="tentang">
+        <div class="container">
+          <div class="img-container">
+            <img src="./assets/img/ronitaradipta-2.png" alt="" />
+          </div>
+          <div class="text-container">
+            <h3>Tentang Saya</h3>
+            <h2>UI Designer & Web Developer</h2>
+            <p>
+              Berlatar belakang seorang apoteker, kini saya memberanikan diri
+              untuk pindah profesi menjadi seorang <em>Website Developer</em>.
+            </p>
+            <p>
+              Walaupun saya tidak memiliki basic sebagai seorang IT, saya sangat
+              yakin saya dapat meraih impian saya menjadi seorang
+              <em>Website Developer</em> profesional.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="skill">
+        <div class="container">
+          <h2>Keahlian <span style="color: #fca61f">Saya</span></h2>
+          <div class="container-card">
+            <div class="card">
+              <img src="./assets/img/html.png" alt="html" />
+              <h3>HTML</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/css.png" alt="css" />
+              <h3>CSS</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/javascript-1.svg" alt="Javascript" />
+              <h3>Javascript</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/figma.png" alt="figma" />
+              <h3>UI Design</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/bootstrap.png" alt="bootstrap" />
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/React.webp" alt="react js" />
+              <h3>React Js</h3>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="karya">
+        <div class="container">
+          <h2>Hasil <span>Karya</span></h2>
+          <div class="container-karya">
+            <div class="card">
+              <img src="./assets/img/project1.png" alt="" />
+              <h3>Chainlords.io</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/project2.png" alt="" />
+              <h3>Republik Rupiah</h3>
+            </div>
+            <div class="card">
+              <img src="./assets/img/project3.png" alt="" />
+              <h3>Republik Institute of Technology</h3>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <aside id="kontak">
+      <div class="card">
+        <h3>Creator</h3>
+        <img src="./assets/img/profile.png" alt="" />
+        <h4>Roni Taradipta</h4>
+        <h4>Email</h4>
+        <p>roni.divine@gmail.com</p>
+        <h4>Minat</h4>
+        <p>Front-End Web Development</p>
+      </div>
+    </aside>
+    <a href="#" id="scroll-top">
+      <img src="./assets/img/arrow-up.svg" alt="" />
+    </a>
+    <footer>
+      <div class="footer-content">
+        <img src="./assets/img/roni.svg" alt="" />
+        <div class="para">
+          <p>roni.divine@gmail.com</p>
+          <p>copyright 2022 Roni Taradipta</p>
+        </div>
+      </div>
+      <div class="social-icon">
+        <div class="ico">
+          <a href="https://www.facebook.com/roni.taradipta"
+            ><img src="./assets/img/facebook.png" alt=""
+          /></a>
+        </div>
+        <div class="ico">
+          <a href="https://www.instagram.com/ronitaradipta/"
+            ><img src="./assets/img/instagram.png" alt=""
+          /></a>
+        </div>
+        <div class="ico">
+          <a href="linkedin.com/in/roni-taradipta-6b0151217">
+            <img src="./assets/img/linkedin.png" alt="" />
+          </a>
+        </div>
+        <div class="ico">
+          <a href="https://twitter.com/ronidivine">
+            <img src="./assets/img/twitter.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
